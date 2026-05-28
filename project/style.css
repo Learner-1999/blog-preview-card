@@ -1,0 +1,97 @@
+/* 
+COLORS
+Yellow: hsl(47, 88%, 63%)
+White: hsl(0, 0%, 100%)
+Gray 500: hsl(0, 0%, 42%)
+Gray 950: hsl(0, 0%, 7%)
+
+TYPOGRAPHY
+BODY COLOR:
+Font size (paragraph): 16px
+
+FONT
+Family: Figtree
+Weights: 500, 800
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+/* Mobile first approach (Default styles) */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: hsl(47, 88%, 63%);
+}
+
+main {
+  background-color: white;
+  width: 22.8rem;
+  height: 500px;
+  box-shadow: 7px 7px 0 black;
+  padding: 26px;
+  border-radius: 10px;
+}
+
+.illustration,
+p,
+div,
+header,
+footer {
+  margin-bottom: 9px;
+}
+
+.illustration {
+  width: 308px;
+  border-radius: 10px;
+}
+
+.unclickable-button p {
+  display: inline-block;
+  font-weight: 800;
+  background-color: hsl(47, 88%, 63%);
+  padding: 9px;
+  font-size: 16px;
+  border-radius: 7px;
+  margin-top: 9px;
+}
+
+.publish-details {
+  font-size: 13px;
+  color: hsl(0, 0%, 7%);
+}
+
+h1 {
+  font-size: 19.5px;
+  font-weight: 800;
+}
+
+.details {
+  color: hsl(0, 0%, 42%);
+  margin-bottom: 29px;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+}
+
+.avatar {
+  width: 35px;
+  border-radius: 30px;
+  margin-right: 12px;
+}
+
+.author {
+  margin-top: 4px;
+}
