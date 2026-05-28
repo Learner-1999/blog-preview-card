@@ -37,12 +37,3 @@ AUTHOR
 Website - Ilya
 Frontend Mentor / Email - iljanovickij@gmail.com
 
-How did you use them (e.g., debugging, generating boilerplate, brainstorming solutions)?
-What worked well? What didn't?
-Note: Delete this note and the content above if you didn't use AI, or replace with your own experience.
-Author
-Website - Add your name here
-Frontend Mentor - @yourusername
-Twitter - @yourusername
-Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.
-
