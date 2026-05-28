@@ -22,10 +22,9 @@ Weights: 500, 800
 
 html {
   font-size: 16px;
-  font-family: sans-serif;
+  font-family: Figtree;
 }
 
-/* Mobile first approach (Default styles) */
 body {
   display: flex;
   justify-content: center;
@@ -34,51 +33,41 @@ body {
   background-color: hsl(47, 88%, 63%);
 }
 
-main {
+/* Mobile */
+.card {
   background-color: white;
   width: 22.8rem;
-  height: 500px;
-  box-shadow: 7px 7px 0 black;
-  padding: 26px;
-  border-radius: 10px;
-}
-
-.illustration,
-p,
-div,
-header,
-footer {
-  margin-bottom: 9px;
+  height: 31.25rem;
+  box-shadow: 0.4rem 0.4rem 0 black;
+  padding: 1.6rem;
 }
 
 .illustration {
-  width: 308px;
-  border-radius: 10px;
+  width: 19.6rem;
 }
 
 .unclickable-button p {
   display: inline-block;
   font-weight: 800;
   background-color: hsl(47, 88%, 63%);
-  padding: 9px;
-  font-size: 16px;
-  border-radius: 7px;
-  margin-top: 9px;
+  padding: 0.6rem;
+  margin-top: 0.6rem;
 }
 
 .publish-details {
-  font-size: 13px;
+  font-size: 0.9rem;
   color: hsl(0, 0%, 7%);
 }
 
 h1 {
-  font-size: 19.5px;
+  font-size: 1.23rem;
   font-weight: 800;
 }
 
-.details {
+.paragraph {
   color: hsl(0, 0%, 42%);
-  margin-bottom: 29px;
+  margin-bottom: 1.8rem;
+  font-weight: 500;
 }
 
 footer {
@@ -87,11 +76,37 @@ footer {
 }
 
 .avatar {
-  width: 35px;
-  border-radius: 30px;
-  margin-right: 12px;
+  width: 2.1rem;
+  margin-right: 0.75rem;
 }
 
 .author {
-  margin-top: 4px;
+  margin-top: 0.25rem;
+}
+
+.card,
+.illustration,
+.unclickable-button p,
+.avatar {
+  border-radius: 0.6rem;
+}
+
+.illustration,
+p,
+div,
+header,
+footer {
+  margin-bottom: 0.6rem;
+}
+
+/* DESKTOP */
+@media (min-width: 1440px) {
+  .illustration {
+    width: 21.8rem;
+  }
+
+  .card {
+    width: 24.8rem;
+    height: 32.35rem;
+  }
 }
