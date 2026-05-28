@@ -1,5 +1,5 @@
 ﻿SCREENSHOT
-![Project Screenshot](./solution/project-screenshot1440px.png)
+![Project Screenshot](./solution/project-screenshot-1440px.png)
 
 LINKS
 Solution URL: Add solution URL here
